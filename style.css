@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans";    
+}
+body{
+    background-color: #fcfcfc;
+}
+.main-page , .section4, .section2, .section3 , .section5,.section6,.section7,.section8, .footer {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+a img{
+    width: 30px;
+} 
+a img:hover{
+    filter: invert(0.8);
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 38px;
+    color: #2e2d2d;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+h4{
+    padding: 10px 0 25px;
+    letter-spacing: 1px;
+}
+p{
+    font-size: 20px;
+    color: gray;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.recp-btn img{
+    width:10px;
+    margin-right: 15px;
+
+}
+.recp-btn{
+    padding: 25px 30px;
+    background-color: rgb(54, 24, 24);
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    margin: 40px 0px;
+    position: relative;
+
+}
+.recp-btn:hover {
+    cursor: pointer;
+    background-color: rgb(110, 11, 8);
+    color: black;
+    border: 1px black;
+}
+
+
+/* MAIN PAGE */
+.section1{
+    display: flex;
+    justify-items: end;
+   
+}
+.sidebar{
+    width: 100px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    text-align: center;
+    box-shadow: 0px 0px 15px #bbbaba;
+}
+.sidebar .logo-bg{
+    position: relative;
+}
+.sidebar .logo-img{
+    width: 110px;
+    position: absolute;
+    right: -20px;
+    top: 30px;
+}
+.sidebar a img{
+    margin: 0 auto;
+}
+.sidebar ul{
+    padding-top: 20px
+}
+.sidebar li{
+    padding: 20px;
+}
+
+.sidebar .nav-links li a{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: rgb(32, 31, 31);
+}
+.main-page{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.65),rgba(155, 151, 151, 0))
+                    , url('assets/bg1.jpeg') ;
+    background-size: cover;
+    text-align: center;
+}
+.menu-contents{
+    margin-top: 50px;
+}
+
+.main-page h1{
+    color: white;
+    margin:  0 300px;
+    font-weight:400 ;
+}
+
+.search-bar{
+    height: 80px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin:40px auto 20px ;
+    
+}
+.search-bar img{
+    width: 30px;
+    background-color: yellow;
+}
+.search-bar .img-div{
+    width: 90px;
+    height: 80px;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 25px;
+}
+.search-input{
+    background: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+.type-btns button{
+    font-size: 15px;
+    padding: 14px 25px;
+    margin: 8px;
+    background-color: #dbd8d8;
+
+    text-transform: capitalize;
+    border: thin;
+    border-radius: 10px;
+}
+.type-btns button:hover{
+    cursor: pointer;
+    background-color: #fcfcfc;
+
+}
+/* SECTION 2 */
+.section2{
+    padding-left: 90px;
+    margin-top: 50px;
+}
+.recepies{
+    display: flex;
+    justify-items: space-between;
+
+}
+.recepies div{
+    width: 380px;
+}
+.recepies img{
+    max-width: 100%;
+    padding:15px 50px 8px 0 ;    
+    object-fit: fill;
+}
+.recepies h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.section2 button{
+    margin: 40px auto 0 450px;
+}
+
+/* SECTION 3 */
+.section3, .section5, .section6, .section7, .section8{
+    padding-left: 90px;
+}
+.container{
+    display: flex;
+    width: 1050px;
+    outline: rgb(235, 233, 233)  solid;
+    margin-top: 80px;
+}
+.img{
+    height:420px;
+    width: 50%;
+}
+.container .img img{
+    width: 100%;
+    object-fit: cover;
+}
+.img-details{
+    width: 50%;
+    padding: 20px 50px;
+    margin: 0 25px;
+}
+p{
+    line-height: 2;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+.section3 button{
+    margin-top: 50px;
+}
+/* SECTION 4 */
+.section4{
+    background-image: linear-gradient(to right,rgb(255, 255, 255,0.8),rgb(255, 255, 255,0)), url('assets/bg2.jpeg');
+    background-size:cover ;
+    height: 500px;
+    padding: 8%;
+}
+.main-pg2{
+    width: 40%;
+}
+.main-pg2 button{
+    margin-top:50px ;
+}
+/* section 8 */
+.section8{
+   margin: 0 auto;
+
+}
+.video{
+    width: 1050px;
+    height:400px;
+    outline: rgb(235, 233, 233)  solid;
+    text-align: center;
+    margin: 80px auto 0;
+    padding-top: 40px;
+}
+/* footer */
+.footer{
+    height: 280px;
+    background-color: rgb(54, 24, 24);
+    margin-bottom: 0;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding:  100px;
+
+}
+.footer ul{
+    line-height: 2;
+    text-transform: capitalize;
+
+}
+.footer .icons img{
+    margin: 5px;
+}
+
+.footer li a:hover{
+    color: lightgray;
+}
+.footer li img{
+    width: 15px;
+    background: transparent;
+    padding-right:7px ;
+}
+.footer img{
+    width: 60px;
+    background-color: rgb(82, 78, 78);
+    border-radius: 8px;
+    opacity: 50%;
+}
